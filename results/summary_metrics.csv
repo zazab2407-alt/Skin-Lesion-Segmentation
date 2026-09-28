@@ -1,0 +1,5 @@
+method,avg_dice,avg_iou,avg_sensitivity,avg_specificity,num_images
+Otsu Threshold,0.773,0.6533,0.7784,0.9445,15
+K-Means Clustering,0.773,0.6533,0.7784,0.9445,15
+Region Growing,0.7495,0.6187,0.7866,0.9357,15
+Marker Watershed,0.7236,0.6064,0.8807,0.796,15

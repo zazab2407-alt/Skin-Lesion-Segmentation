@@ -1,0 +1,65 @@
+[
+  {
+    "image_id": "ISIC_0000006",
+    "method": "Marker Watershed",
+    "dice": 0.498,
+    "iou": 0.3316,
+    "sensitivity": 0.6923,
+    "specificity": 0.8942,
+    "reason": "أداء ضعيف عموماً (Dice تحت 0.5) بدون سبب واحد واضح"
+  },
+  {
+    "image_id": "ISIC_0000010",
+    "method": "Marker Watershed",
+    "dice": 0.4955,
+    "iou": 0.3293,
+    "sensitivity": 0.7013,
+    "specificity": 0.9028,
+    "reason": "أداء ضعيف عموماً (Dice تحت 0.5) بدون سبب واحد واضح"
+  },
+  {
+    "image_id": "ISIC_0000011",
+    "method": "Otsu Threshold",
+    "dice": 0.4938,
+    "iou": 0.3279,
+    "sensitivity": 0.5969,
+    "specificity": 0.823,
+    "reason": "أداء ضعيف عموماً (Dice تحت 0.5) بدون سبب واحد واضح"
+  },
+  {
+    "image_id": "ISIC_0000011",
+    "method": "K-Means Clustering",
+    "dice": 0.4938,
+    "iou": 0.3279,
+    "sensitivity": 0.5969,
+    "specificity": 0.823,
+    "reason": "أداء ضعيف عموماً (Dice تحت 0.5) بدون سبب واحد واضح"
+  },
+  {
+    "image_id": "ISIC_0000011",
+    "method": "Region Growing",
+    "dice": 0.4602,
+    "iou": 0.2989,
+    "sensitivity": 0.5346,
+    "specificity": 0.8299,
+    "reason": "تداخل ضعيف جداً مع الـ ground truth (شكل الآفة غير منتظم أو contrast ضعيف)"
+  },
+  {
+    "image_id": "ISIC_0000018",
+    "method": "Marker Watershed",
+    "dice": 0.3768,
+    "iou": 0.2321,
+    "sensitivity": 1.0,
+    "specificity": 0.0,
+    "reason": "الموديل اعتبر معظم الصورة foreground بالغلط (over-segmentation / فشل الـ watershed markers)"
+  },
+  {
+    "image_id": "ISIC_0000021",
+    "method": "Marker Watershed",
+    "dice": 0.3994,
+    "iou": 0.2495,
+    "sensitivity": 1.0,
+    "specificity": 0.0,
+    "reason": "الموديل اعتبر معظم الصورة foreground بالغلط (over-segmentation / فشل الـ watershed markers)"
+  }
+]
